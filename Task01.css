@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Nabla&family=Redacted+Script:wght@300&family=Silkscreen&display=swap");
+
+/* 
+font-family: 'Bungee Shade', cursive;
+font-family: 'Nabla', cursive;
+font-family: 'Redacted Script', cursive;
+font-family: 'Silkscreen', cursive
+
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Silkscreen", cursive;
+}
+
+.menu {
+  display: flex;
+}
+.menu li {
+  width: 50%;
+  text-align: center;
+  margin: 5px 20px;
+  list-style: none;
+  padding: 2px 10px;
+  color: white;
+  font-size: 20px;
+  border-radius: 3px;
+  letter-spacing: 2px;
+  background-color: blue;
+  user-select: none;
+  transition: all 2s, transform 2s 1s;
+  /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+
+.menu li:hover {
+  width: 100%;
+  cursor: pointer;
+  background-color: red;
+  color: azure;
+  border-radius: 10px;
+  /* transform: rotate(180deg); */
+}
+
+.hero {
+  margin-left: 20px;
+  text-align: center;
+  user-select: all;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h1::first-letter {
+  background-color: red;
+  color: yellow;
+  font-size: 40px;
+  padding: 0px 10px;
+  font-family: "Bungee Shade", cursive;
+  border-radius: 5px;
+}
+
+h1::marker {
+  color: red;
+  background-color: yellow;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px;
+}
+
+/* .main-container .container-one::before {
+  content: url(/images/dollar.png);
+} */
+
+.container-two img {
+  background-color: aqua;
+  transition: all 2s, transform 2s 1s;
+}
+
+.container-two img:hover {
+  background-color: aqua;
+
+  rotate: (180deg);
+}
+
+footer .copy {
+  font-family: "Nabla", cursive;
+  background-color: rgb(0, 170, 0);
+  height: 50px;
+  padding: 10px 10px;
+  text-align: center;
+}

@@ -14,4 +14,4 @@ git status
 
 git remote add origin "link til github repo"
 
-git push
+git push...
