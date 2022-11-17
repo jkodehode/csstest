@@ -14,6 +14,7 @@ font-family: 'Silkscreen', cursive
 body {
   margin: 0;
   font-family: "Silkscreen", cursive;
+  height: 100vh;
 }
 
 .menu {
@@ -77,16 +78,34 @@ h1::marker {
 /* .main-container .container-one::before {
   content: url(/images/dollar.png);
 } */
+.container-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .container-two img {
-  background-color: aqua;
-  transition: all 2s, transform 2s 1s;
+  width: 200px;
+  /* transition: all 2s, transform 2s 1s; */
+  transition-duration: 2s;
 }
 
 .container-two img:hover {
-  background-color: aqua;
+  transform: rotate(1800deg);
+}
 
-  rotate: (180deg);
+footer {
+  margin-top: auto;
 }
 
 footer .copy {
@@ -96,3 +115,5 @@ footer .copy {
   padding: 10px 10px;
   text-align: center;
 }
+
+/** Just copied the below from online to check it out */
